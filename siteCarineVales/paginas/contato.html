@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo.png.png">
+    <link rel="stylesheet" type="text/css" href="../estilos/layout.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/formulario.css">
+    <title>Makeup Cah's</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo.png.png" alt="Logo do Site">
+        <h1>Makeup Cah's</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página Principal</a></li>
+                <li><a href="../paginas/contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="formulario">
+            <h2>Contate-nos</h2>
+            <form action="#" method="post">
+                <section style="display: flex; gap: 100px; width: auto;">
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
+                </section>
+                <section style="display: flex; gap: 100px; width: auto;">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <input type="tel" id="telefone" name="telefone" placeholder="Telefone"required>
+                </section>
+                <input type="text" id="endereco" name="endereco" placeholder="Endereço"required>
+
+                <textarea id="text" name="mensagem" rows="4" placeholder="Deixe sua mensagem aqui" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+</body>
+</html>
